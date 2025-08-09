@@ -1,21 +1,27 @@
-{% extends "base.html" %}
-
-{% block content %}
-{{ section.content | safe }}
+{% extends "base.html" %} {% block content %} {{ section.content | safe }}
 
 <!-- access top 10 most recent pages -->
 
 {% set section = get_section(path="archive/_index.md") %}
 
 <ol class="cards">
-{% for page in section.pages %}
-  {% if loop.index > 10 %}{% break %}{% endif %}
-  <li><a href="{{ page.permalink | safe }}" class="card_link"><div class="card">
-    <h1>{{ page.title }}<br></h1>
-    <h3>{{ page.date }}</h3>
-    <p>{{ page.summary | safe }}</p>
-  </div></a></li>
-{% endfor %}
+    {% for page in section.pages %} {% if loop.index > 10 %}{% break %}{% endif
+    %}
+    <li>
+        <a href="{{ page.permalink | safe }}" class="card_link"
+            ><div class="card">
+                <h1>{{ page.title }}<br /></h1>
+                <h3>{{ page.date }}</h3>
+                <p>{{ page.summary | safe }}</p>
+            </div></a
+        >
+    </li>
+    {% endfor %}
+    <li>
+        <div class="card">
+            <h1>Under Construction<br /></h1>
+        </div>
+    </li>
 </ol>
 
 <footer></footer>
