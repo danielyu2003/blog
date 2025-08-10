@@ -1,8 +1,8 @@
-# daniel yu
+## About:
 
 HTML/CSS for my [personal blog](https://yudaniel.com).
 
-## Installation
+## Installation:
 
 **Prerequisites:**
 - Linux/MacOS
@@ -14,10 +14,10 @@ Host it locally with `zola serve`.
 
 For more information, take a look at the [official documentation site for Zola](https://www.getzola.org/documentation/getting-started/cli-usage/).
 
-## Contributing
+## Contributing:
 
 Feel free to leave comments and suggestions [here](https://github.com/danielyu2003/danielyu2003.github.io/discussions)!
 
-## License
+## License:
 
 This blog is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
