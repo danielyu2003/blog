@@ -8,8 +8,8 @@ footer = ""
 
 <br>
 <figure>
-<img src="ambassadors.jpg">
-<figcaption>The Ambassadors, by Hans Holbein the Younger.</figcaption>
+<img src="IMG_0350.jpeg">
+<figcaption>Luxembourg Garden, photo taken by me.</figcaption>
 </figure>
 <br>
 
